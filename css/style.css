@@ -1,0 +1,62 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body {
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100%;
+}
+
+.container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+header {
+    background: #2427d8;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.button {
+    text-align: center;
+    margin-top: 5%;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
