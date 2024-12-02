@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 20px;
     border-radius: 8px;
+    background-color: #f5f5f5;
 }
 
 body {
@@ -64,3 +65,22 @@ p {
 .referencia{
     text-align: center;
 }
+
+.menu.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    background-color: #ccc;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+}
+
+.menu li{
+    list-style: none;
+}
+
