@@ -12,54 +12,60 @@
     <div class="container">
         <header>
             <h1>Eucariontes</h1>
-            <nav id="navbar-desktop">    
-                <ul class="navbar-links" >
+            <nav id="navbar-desktop">
+                <ul class="navbar-links">
                     <li><a href="../../index.html">Introdução</a></li>
                     <li><a href="procariontes.html">Procariontes</a></li>
                     <li><a href="eucariontes.html">Eucariontes</a></li>
                     <li><a href="endossimbiose.html">Endossimbiose</a></li>
                 </ul>
             </nav>
-            <nav id="navbar-mobile">    
+            <nav id="navbar-mobile">
                 <button id="toggle-menu">☰</button>
-                <ul class="navbar-links" >
+                <ul class="navbar-links">
                     <li><a href="../../index.html">Introdução</a></li>
                     <li><a href="procariontes.html">Procariontes</a></li>
                     <li><a href="eucariontes.html">Eucariontes</a></li>
                     <li><a href="endossimbiose.html">Endossimbiose</a></li>
                 </ul>
-                
+
             </nav>
         </header>
-        <br>
-        <p>
-            As células dos seres vivos são classificadas como procariontes ou eucariontes, e cada uma tem seu tamanho,
-            estrutura, divisão, entre outros aspectos. Neste projeto, vamos apresentar as principais diferenças
-            morfológicas e funcionais entre as duas células. Também vamos falar sobre o processo e a teoria da
-            endossimbiose, que explicam o surgimento da célula eucarionte.
-        </p>
-        <br>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/KUTrhdRvpoo" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="referencia">
-            <p><a href="https://youtu.be/KUTrhdRvpoo" target="_blank">Descomplica</a></p>
-        </div>
-        <br>
-        <div class="image-container"> <img src="../imagens/ProcariontesEucariontes.jfif" alt="Procariontes Eucariontes" class="img-int"> </div>
-        <div class="referencia">
-            <p><a href="https://brasilescola.uol.com.br/biologia/diferencas-entre-celulas-procariontes-eucariontes.htm" target="_blank">Brasil Escola</a></p>
+        <div class="color">
+            <br>
+            <p>
+                As células dos seres vivos são classificadas como procariontes ou eucariontes, e cada uma tem seu
+                tamanho,
+                estrutura, divisão, entre outros aspectos. Neste projeto, vamos apresentar as principais diferenças
+                morfológicas e funcionais entre as duas células. Também vamos falar sobre o processo e a teoria da
+                endossimbiose, que explicam o surgimento da célula eucarionte.
+            </p>
+            <br>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/KUTrhdRvpoo" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="referencia">
+                <p><a href="https://youtu.be/KUTrhdRvpoo" target="_blank">Descomplica</a></p>
+            </div>
+            <br>
+            <div class="image-container"> <img src="../imagens/ProcariontesEucariontes.jfif"
+                    alt="Procariontes Eucariontes" class="img-int"> </div>
+            <div class="referencia">
+                <p><a href="https://brasilescola.uol.com.br/biologia/diferencas-entre-celulas-procariontes-eucariontes.htm"
+                        target="_blank">Brasil Escola</a></p>
+            </div>
         </div>
     </div>
     <script>
         const toggleMenu = document.getElementById('toggle-menu');
         const navbarLinks = document.getElementById('navbar-mobile').querySelector(".navbar-links");
-    
+
         toggleMenu.addEventListener('click', () => {
             navbarLinks.style.display = navbarLinks.style.display == "none" ? "flex" : "none"
         });
     </script>
 </body>
+
 </html>
