@@ -1,10 +1,6 @@
-function mostrarGitHub() {
-    var githubLinks = `
-        GitHub 1: https://github.com/LuizEduardoGurgel
-        GitHub 2: https://github.com/carneiroaraujo
-        GitHub 3: https://github.com/Hermesdanubio
-        GitHub 4: https://github.com/paulvitor
-        GitHub 5: https://github.com/mikael-demiurgo
-    `;
-    window.alert(githubLinks);
-}
+const toggleMenu = document.getElementById('toggle-menu');
+const navbarLinks = document.getElementById('navbar-mobile').querySelector(".navbar-links");
+
+toggleMenu.addEventListener('click', () => {
+    navbarLinks.style.display = navbarLinks.style.display == "none" ? "flex" : "none"
+});

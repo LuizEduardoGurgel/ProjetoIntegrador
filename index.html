@@ -12,22 +12,22 @@
 <body>
     <div class="container">
         <header>
-            <h1>Comparação entre as células procarióticas e eucarióticas</h1>
+            <h1>Introdução</h1>
             <nav id="navbar-desktop">    
                 <ul class="navbar-links" >
-                    <li><a href="#">Introdução</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Introdução</a></li>
+                    <li><a href="#">Procariontes</a></li>
+                    <li><a href="#">Eucariontes</a></li>
+                    <li><a href="#">Endossimbiose</a></li>
                 </ul>
             </nav>
             <nav id="navbar-mobile">    
                 <button id="toggle-menu">☰</button>
                 <ul class="navbar-links" >
-                    <li><a href="#">Introdução</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Introdução</a></li>
+                    <li><a href="#">Procariontes</a></li>
+                    <li><a href="#">Eucariontes</a></li>
+                    <li><a href="#">Endossimbiose</a></li>
                 </ul>
                 
             </nav>
@@ -49,27 +49,90 @@
             <p><a href="https://youtu.be/KUTrhdRvpoo" target="_blank">Descomplica</a></p>
         </div>
         <br>
-        <div class="image-container"> <img src="../ProjetoIntegrador/ParteTeste/imagens/ProcariontesEucariontes.jfif" alt="Procariontes Eucariontes"> </div>
+        <div class="image-container"> <img src="../ProjetoIntegrador/ParteTeste/imagens/ProcariontesEucariontes.jfif" alt="Procariontes Eucariontes" class="img-int"> </div>
         <div class="referencia">
             <p><a href="https://brasilescola.uol.com.br/biologia/diferencas-entre-celulas-procariontes-eucariontes.htm" target="_blank">Brasil Escola</a></p>
+        </div>
+        <br>
+        <div class="profiles-container">
+            <!-- Perfil 1 -->
+            <div class="about-container">
+                <div class="main-circle">
+                    <img src="ParteTeste/imagens/dudu.jpg" alt="Luiz Eduardo" class="profile-img">
+                </div>
+                <h2 class="name">Luiz Eduardo</h2>
+                <div class="links">
+                    <a href="https://github.com/luizeduardogurgel" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/github.png" alt="GitHub" class="github-img">
+                    </a>
+                    <a href="https://www.instagram.com/dudugurgel_/" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <!-- Perfil 2 -->
+            <div class="about-container">
+                <div class="main-circle">
+                    <img src="ParteTeste/imagens/joao1.png" alt="João Carneiro" class="profile-img">
+                </div>
+                <h2 class="name">João Carneiro</h2>
+                <div class="links">
+                    <a href="https://github.com/carneiroaraujo" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/github.png" alt="GitHub" class="github-img">
+                    </a>
+                </div>
+            </div>
+            <!-- Perfil 3 -->
+            <div class="about-container">
+                <div class="main-circle">
+                    <img src="ParteTeste/imagens/paulo.jpg" alt="Paulo Vitor" class="profile-img">
+                </div>
+                <h2 class="name">Paulo Vitor</h2>
+                <div class="links">
+                    <a href="https://github.com/paulvitor" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/github.png" alt="GitHub" class="github-img">
+                    </a>
+                    <a href="https://www.instagram.com/vitinhohzy/" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <!-- Perfil 4 -->
+            <div class="about-container">
+                <div class="main-circle">
+                    <img src="ParteTeste/imagens/mikael.jpeg" alt="David Mikael" class="profile-img">
+                </div>
+                <h2 class="name">David Mikael</h2>
+                <div class="links">
+                    <a href="https://github.com/mikael-demiurgo" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/github.png" alt="GitHub" class="github-img">
+                    </a>
+                    <a href="https://www.instagram.com/mikaeldemiurgo/" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <!-- Perfil 5 -->
+            <div class="about-container">
+                <div class="main-circle">
+                    <img src="ParteTeste/imagens/hermes.png" alt="Hermes Danúbio" class="profile-img">
+                </div>
+                <h2 class="name">Hermes Danúbio</h2>
+                <div class="links">
+                    <a href="https://github.com/Hermesdanubio" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/github.png" alt="GitHub" class="github-img">
+                    </a>
+                    <a href="https://www.instagram.com/hermes_p14/" target="_blank" class="link-icon">
+                        <img src="ParteTeste/imagens/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
         </div>
 
 
 
-
-
-        <div class="button">
-            <button onclick="mostrarGitHub()">Clique aqui para ver os GitHub</button>
-        </div> 
+ 
     </div>
-    <script>
-        const toggleMenu = document.getElementById('toggle-menu');
-        const navbarLinks = document.getElementById('navbar-mobile').querySelector(".navbar-links");
-    
-        toggleMenu.addEventListener('click', () => {
-            navbarLinks.style.display = navbarLinks.style.display == "none" ? "flex" : "none"
-        });
-    </script>
 </body>
 
 </html>
