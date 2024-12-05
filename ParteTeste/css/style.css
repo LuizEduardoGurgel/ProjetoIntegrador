@@ -1,18 +1,18 @@
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Arial;
     width: 80%;
     margin: auto;
     margin-bottom: 100%;
 }
 
-.container img {
+.img-int{
     display: block;
     max-width: 100%;
     height: auto;
@@ -76,13 +76,12 @@ p {
     
   }
   
-
-  
   .navbar-links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    justify-content: center;
   }
   #navbar-desktop {
     flex-direction: row;
@@ -136,4 +135,61 @@ p {
       display: none;
     }
   }
+
+
+
+  .profiles-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 30px; 
+    flex-wrap: wrap; 
+}
+
+.about-container {
+    text-align: center;
+    max-width: 200px; 
+}
+
+.main-circle {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.link-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.link-icon {
+    text-decoration: none;
+    color: black;
+}
+
+.github-img {
+    border-radius: 25%;
+}
 
