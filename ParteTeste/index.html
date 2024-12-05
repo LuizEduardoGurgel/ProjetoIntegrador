@@ -5,14 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Integrador</title>
-    <link rel="stylesheet" href="../ParteTeste/css/style.css">
-    <script src="../ParteTeste/js/script.js"></script>
+    <link rel="stylesheet" href="../ProjetoIntegrador/ParteTeste/css/style.css">
+    <script src="../ProjetoIntegrador/ParteTeste/js/script.js"></script>
 </head>
 
 <body>
     <div class="container">
         <header>
             <h1>Comparação entre as células procarióticas e eucarióticas</h1>
+            <nav id="navbar-desktop">    
+                <ul class="navbar-links" >
+                    <li><a href="#">Introdução</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="navbar-mobile">    
+                <button id="toggle-menu">☰</button>
+                <ul class="navbar-links" >
+                    <li><a href="#">Introdução</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                
+            </nav>
         </header>
         <br>
         <p>
@@ -31,7 +49,7 @@
             <p><a href="https://youtu.be/KUTrhdRvpoo" target="_blank">Descomplica</a></p>
         </div>
         <br>
-        <div class="image-container"> <img src="../ParteTeste/imagens/ProcariontesEucariontes.jfif" alt="Procariontes Eucariontes"> </div>
+        <div class="image-container"> <img src="../ProjetoIntegrador/ParteTeste/imagens/ProcariontesEucariontes.jfif" alt="Procariontes Eucariontes"> </div>
         <div class="referencia">
             <p><a href="https://brasilescola.uol.com.br/biologia/diferencas-entre-celulas-procariontes-eucariontes.htm" target="_blank">Brasil Escola</a></p>
         </div>
@@ -44,6 +62,14 @@
             <button onclick="mostrarGitHub()">Clique aqui para ver os GitHub</button>
         </div> 
     </div>
+    <script>
+        const toggleMenu = document.getElementById('toggle-menu');
+        const navbarLinks = document.getElementById('navbar-mobile').querySelector(".navbar-links");
+    
+        toggleMenu.addEventListener('click', () => {
+            navbarLinks.style.display = navbarLinks.style.display == "none" ? "flex" : "none"
+        });
+    </script>
 </body>
 
 </html>
