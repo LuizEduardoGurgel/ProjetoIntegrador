@@ -1,15 +1,15 @@
 .container {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 0;
+  box-sizing: border-box;
 }
+
+
 
 body {
     font-family: Arial;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 100%;
 }
 
 .img-int{
@@ -21,11 +21,28 @@ body {
 }
 
 header {
-    background: #2427d8;
+    background: #084d6e;
     color: white;
     padding: 1rem 0;
     text-align: center;
-    border-radius: 8px 8px 0 0;
+    border-radius: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+      width: 100%;
+      padding: 0px;
+  }
+
+  header {
+      font-size: 1.5rem; 
+  }
+
+  p{
+    font-size: 22px;
+  }
+
 }
 
 .header h1 {
@@ -171,7 +188,7 @@ p {
 }
 
 .name {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
     color: #333;
