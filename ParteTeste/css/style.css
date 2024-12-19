@@ -115,10 +115,18 @@ p {
     margin: 0 10px;
   }
   
+  
   .navbar-links a {
     color: white;
     text-decoration: none;
     padding: 8px 12px;
+  }
+  #navbar-mobile button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #333;
+    padding: 10px 20px;
   }
   
  
